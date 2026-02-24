@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PYFILE=/Users/nadivgicheru/Music/Logic/NADIFU/ALU/BSE/PROJECTS/PYTHON/alu-higher_level_programming/python01.py
+
+python3 $PYFILE
