@@ -1,0 +1,3 @@
+#!/bin/bash
+PYFILE=python-hello_world/python01a.py
+python3 -m py_compile $PYFILE
