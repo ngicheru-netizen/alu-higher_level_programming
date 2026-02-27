@@ -1,9 +1,3 @@
 #!/bin/bash
-PYFILE=python-hello_world/python01a.py
-echo "Compiling "$PYFILE""
-sleep 1
+echo "Compiling $PYFILE ..."
 python3 -m py_compile "$PYFILE"
-sleep 1
-echo "Renaming "$PYFILE""
-mv python-hello_world/__pycache__/python01a.*.pyc "${PYFILE}c"
-sleep 1
