@@ -7,9 +7,10 @@ def replace_in_list(my_list, idx, element):
         return None
 
 
-my_list = [1, 2, 3, 4, 5]
-idx = 45
-my_list[3] = 7
-element = 32
-result = replace_in_list(my_list, idx, element)
-replace_in_list(my_list, idx, element)
+my_list = [1, 2, 3]
+idx = 1
+new_element = 4
+result = replace_in_list(my_list, idx, new_element)
+replace_in_list(my_list, idx, new_element)
+print(result)
+print(my_list)
