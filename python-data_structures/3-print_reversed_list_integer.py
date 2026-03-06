@@ -8,5 +8,3 @@ def print_reversed_list_integer(my_list=[]):
             print.reverse("{:d}".format(my_list[i]))
         else:
             print("{}".format(my_list[i]))
-elif
-    
