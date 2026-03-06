@@ -2,7 +2,9 @@
 
 
 def new_in_list(my_list, idx, element):
+    list_copy = my_list.copy
     if idx < 0:
-        return my_list
-    if idx >= len(my_list):
-        return my_list
+        return list_copy
+    if idx >= 0:
+        return list_copy
+    
