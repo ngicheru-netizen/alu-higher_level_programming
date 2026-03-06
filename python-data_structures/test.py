@@ -1,11 +1,7 @@
-#!bin/user/python3
+#!/usr/bin/python3
+add_tuple = __import__('7-add_tuple').add_tuple
 
-def no_c(my_string):
-    my_list = list(my_string)
-    i = 0
-    while i < my_list:
-        if my_list[i] in "Cc":  
-            del my_list[i]
-        else:
-            i += 1
-    return "".join(my_list)
+tuple_a = (1, 2)
+tuple_b = (1, 2)
+new_tuple = add_tuple(tuple_a, tuple_b)
+print(new_tuple)
