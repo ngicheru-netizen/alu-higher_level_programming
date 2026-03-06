@@ -1,10 +1,11 @@
-#!/usr/bin/python3
-new_in_list = __import__('4-new_in_list').new_in_list
+#!bin/user/python3
 
-list = [1, 2, 3]
-idx = 1
-element = 4
-new_list = new_in_list(list, idx, element)
-
-print(new_list)
-print(list)
+def no_c(my_string):
+    my_list = list(my_string)
+    i = 0
+    while i < my_list:
+        if my_list[i] in "Cc":  
+            del my_list[i]
+        else:
+            i += 1
+    return "".join(my_list)
