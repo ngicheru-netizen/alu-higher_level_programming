@@ -10,5 +10,3 @@ def no_c(my_string):
         else:
             i += 1
     return "".join(my_list)
-
-print(no_c("Charles"))
