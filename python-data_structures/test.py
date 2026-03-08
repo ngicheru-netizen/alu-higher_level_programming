@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-add_tuple = __import__('7-add_tuple').add_tuple
+multiple_returns = __import__('8-multiple_returns').multiple_returns
 
-tuple_a = (1, )
-tuple_b = (1, )
-new_tuple = add_tuple(tuple_a, tuple_b)
-print(new_tuple)
+sentence = "At school, I learnt C!"
+length, first = multiple_returns(sentence)
+print("Length: {:d} - First character: {}".format(length, first))
