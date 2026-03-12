@@ -1,0 +1,19 @@
+ - [Got]
+
+(0 chars long)
+[stderr]: Traceback (most recent call last):
+  File "./main_4.py", line 6, in <module>
+    new_tuple = add_tuple(tuple_a, tuple_b)
+  File "/tmp/correction/7400838378939957427242032956308742736034_5/2120/7172/python-data_structures/7-add_tuple.py", line 6, in add_tuple
+    a2 = tuple_a[1] if len(tuple_a) > 0 else 0
+IndexError: tuple index out of range
+
+(343 chars long)
+[Expected]
+(2, 2)
+
+(7 chars long)
+[stderr]: [Anything]
+(0 chars long)
+
+
