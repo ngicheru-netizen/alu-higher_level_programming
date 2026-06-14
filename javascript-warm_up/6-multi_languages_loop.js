@@ -6,4 +6,4 @@ for (let i = 0; i < langs.length; i++) {
   output += langs[i] + '\n';
 }
 
-console.log(output);
+console.log(output.slice(0, -1));
